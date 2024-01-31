@@ -19,10 +19,14 @@ For this project I have used vite@latest to create react project environement, t
 
 ### Part 2: Creating the React web application layout
 
-the _App_ is the main component contain the imported array of "leaners" data objects, that is used to initialize state of learners object as the key. This main component render <Learner> component that render each learner of the Learners object
+- the _App_ is the main component contain the imported array of "leaners" data objects, that is used to initialize state of learners object as the key. This main component render <Learner> component that render each learner of the Learners object
 
-the _Learner_
+- The _Learner_ component expected to desplay the name, the Boi and render the <Scores> component for each learner of the learners objects in an organized manner
 
+- The _Scores_ component expected to display the date and the score for each score of each learner object
+
+<!-- techniaues used and skills learned
+challenges, what went wrong and how it was resolved -->
 
 # Completion:
 The layout and styling and the functionality of the web application are successfully implemented and the project is pushed to Github and deployed on Github pages 

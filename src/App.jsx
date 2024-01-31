@@ -1,19 +1,14 @@
 import { useState } from 'react'
 import Learner from './components/Learner'
+import { learnersData } from './components/data'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {
+  const [learners, setlearners] = useState(learnersData)
+console.log(learners)
   return (
-    <>
-      <div className="card">
-       <Learner />
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+       <Learner learners = {learners} />
   )
 }
 

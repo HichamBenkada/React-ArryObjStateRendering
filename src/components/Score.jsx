@@ -1,7 +1,14 @@
-export default function Score(props){
+export default function Score({scores}){
     return(
         <>
-        scores...
+        Scores: <br />
+            {scores.map((score)=>{
+                return (
+                    <pre>
+                    Date: {score.date}     Score: {score.score}
+                    </pre>
+                )
+            })}
         </>
     )
 }

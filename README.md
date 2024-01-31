@@ -2,30 +2,29 @@
 
 
 # Introduction:
-This project is to showcase Rendering Arrays in React
+This project is to showcase my front-end development skills working with react and make a use of state rendering an array of objects in React application
 
 # Objectives:
-The goal of this project is to demonstrated my ability to build a React application Create React components from arrays of data being stored in state.
+The goal of this project is to demonstrated my ability to:
+- Build a React application
+- Create dynamically rendered React components
+- Handling arguiments with props
+- use State hook to render content from arrays of data being stored in state.
+- Follow best practices and successfully meet the project requirements
 
- CodeSandbox
-This lab uses CodeSandbox as one of its tools.
+# Implementation:
 
-If you are unfamiliar with CodeSandbox, or need a refresher, please visit our reference page on CodeSandbox for instructions on:
+### Part 1: Creating the React Environment
+For this project I have used vite@latest to create react project environement, then use npm (Node package manager) to install all dependencies needed for the project requirements.
 
-Creating an Account
-Making a Sandbox
-Navigating your Sandbox
-Submitting a link to your Sandbox to Canvas
+### Part 2: Creating the React web application layout
 
-Instructions
-This lab will test your ability to create components from arrays stored in state.
+the _App_ is the main component contain the imported array of "leaners" data objects, that is used to initialize state of learners object as the key. This main component render <Learner> component that render each learner of the Learners object
 
-Create a React CodeSandbox and name it "Rendering Arrays in React."
-Follow the requirements below to create your React application.
-Submit the link to your CodeSandbox on Canvas when you are finished.
-The following requirements must be met for this lab to be considered successful:
+the _Learner_
 
-The layout and styling of the site is left up to your discretion. There are no layout or styling requirements, but you should always make sure your web applications are neat, sensible, and provide a good user experience.
-Use the provided array of "learner" data below to initialize state as an object with a learners key in the <App> component.
-Code the <App> component to display a <Learner> component for each learner object in the learners array being held in state.
-Code the <Learner> component so that it:
+
+# Completion:
+The layout and styling and the functionality of the web application are successfully implemented and the project is pushed to Github and deployed on Github pages 
+
+_Thank you for your time. I'm eagerly waiting for your comments and feedback to acheive project excellence_

@@ -5,7 +5,7 @@ export default function Learner({learners}){
         <>
        
         {learners.map((learner , i) => {
-            return <div className = "card">
+            return <div className = "card" key= {learners.name}>
                  ({i+1} of {learners.length})
                  <h3>
                     Name: {learner.name}

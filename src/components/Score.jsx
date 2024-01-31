@@ -4,7 +4,7 @@ export default function Score({scores}){
         Scores: <br />
             {scores.map((score)=>{
                 return (
-                    <pre>
+                    <pre key ={score.date}>
                     Date: {score.date}     Score: {score.score}
                     </pre>
                 )
